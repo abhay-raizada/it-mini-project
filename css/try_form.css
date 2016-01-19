@@ -1,0 +1,203 @@
+html, body { margin: 0; padding: 0; }
+
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+a:active {
+    text-decoration: none;
+}
+
+body {
+    background: #4CAF50;
+    font-family: 'Lato', sans-serif;
+    color: #FDFCFB;
+    text-align: center;
+}
+
+form {
+    width: 450px;
+    margin: 17% auto;
+}
+
+.header {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.description {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    margin: -2px 0 45px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    transition: background .3s ease-in-out;
+}
+
+.button {
+    height: 44px;
+    border: none;
+}
+
+#firstname {
+    margin-top: 10px;
+    width: 100%;
+
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+
+}
+
+#lastname {
+    margin-top: 10px;
+    width: 100%;
+
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+
+}
+
+#phonenumber {
+    margin-top: 10px;
+    width: 100%;
+
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+
+}
+
+#email {
+    margin-top: 10px;
+    width: 100%;
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+
+}
+#pass1 {
+    margin-top: 10px;
+    width: 100%;
+
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+
+}
+
+#pass2 {
+    margin-top: 10px;
+    width: 100%;
+
+    font-family: inherit;
+    color: #737373;
+    letter-spacing: 1px;
+    text-indent: 5%;
+
+}
+
+#submit {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10px;
+    height: 46px;
+    background: #E53935;
+    font-family: inherit;
+    font-weight: bold;
+    color: inherit;
+    letter-spacing: 1px;
+    line-height: 46px;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+#submit:hover {
+    background: #ba2d2b;
+}
+
+input:focus {
+    outline: none;
+    outline: 2px solid #E53935;
+    box-shadow: 0 0 2px #E53935;
+}
+
+.ripple {
+    overflow: hidden;
+}
+
+.ripple-effect {
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: white;
+
+    animation: ripple-animation 2s;
+}
+
+@keyframes ripple-animation {
+    from {
+        transform: scale(1);
+        opacity: 0.4;
+    }
+    to {
+        transform: scale(100);
+        opacity: 0;
+    }
+}
+
+#emailstatus{
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: 'Ubuntu', serif;
+}
+
+#status{
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: 'Ubuntu', serif;
+    color: #d01d27;
+}
+
+#length_status{
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: 'Ubuntu', serif;
+}
+
+#phone_length_status{
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: 'Ubuntu', serif;
+}
+
+input[type="text"]{
+    background-color: #eeffde;
+}
+
+input[type="password"]{
+    background-color: #eeffde;
+}
