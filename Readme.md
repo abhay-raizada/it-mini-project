@@ -3,5 +3,5 @@ and students, surely we'll be able to make
 something useful out of it
 CHEERS!!
 
-Developers: Abhay Razhida, Surya Prakash, Shaunak Sen
+Developers: Abhay Raizada, Surya Prakash, Shaunak Sen
 
