@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script>
+        function run() {
+            var checkedValue = "";
+            var inputElements = document.getElementsByClassName('messageCheckbox');
+            for (var i = 0; inputElements[i]; ++i) {
+                if (inputElements[i].checked) {
+                    checkedValue += inputElements[i].value;
+                }
+            }
+            console.log(checkedValue);
+        }
+    </script>
+</head>
+<body>
+<input class="messageCheckbox" type="checkbox" value="3" name="mailId[]">hi
+<input class="messageCheckbox" type="checkbox" value="1" name="mailId[]">there
+<button type="button" onclick="run()">Go</button>
+</body>
+</html>
